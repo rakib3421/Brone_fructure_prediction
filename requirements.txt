@@ -39,7 +39,7 @@ requests==2.32.3
 rich==13.7.1
 setuptools==70.2.0
 six==1.16.0
-tensorboard==2.16.2
+tensorboard>=2.15,<2.16
 tensorboard-data-server==0.7.2
 tensorflow==2.15.1
 termcolor==2.4.0
