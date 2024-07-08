@@ -25,6 +25,7 @@ MarkupSafe==2.1.5
 mdurl==0.1.2
 ml-dtypes==0.3.2
 namex==0.0.8
+numpy>=1.22.0,<2.0.0
 opt-einsum==3.3.0
 optree==0.12.0
 packaging==24.1
@@ -50,5 +51,4 @@ wheel==0.43.0
 wrapt==1.16.0
 zope.event==5.0
 zope.interface==6.4.post2
-numpy>=1.22.0,<2.0.0
 pandas>=1.4.0,<2.0.0
