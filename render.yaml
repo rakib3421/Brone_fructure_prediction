@@ -1,12 +1,7 @@
-# Exported from Render on 2024-07-08T20:06:32Z
 services:
-- type: web
-  name: BroneFracturePrediction
-  runtime: static
-  repo: https://github.com/rakib3421/Bronefractureprediction
-  envVars:
-  - key: PYTHON_VERSION
-    sync: false
-  buildCommand: pip install -r requirements.txt
-  staticPublishPath: BroneFracturePrediction
-version: "1"
+  - type: web
+    name: flask-app
+    env: python
+    plan: free
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "gunicorn  app:app"
